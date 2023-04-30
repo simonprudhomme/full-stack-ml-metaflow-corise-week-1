@@ -1,0 +1,86 @@
+{
+  "meta": {},
+  "data": {
+    "id": "full-stack-metaflow",
+    "title": "Week 1: Full Stack Machine Learning and Delivering Business Value",
+    "defaultPath": "./notebooks/intro.ipynb",
+    "showPrimaryView": true,
+    "numbered": true,
+    "sections": [
+      {
+        "title": "Introduction",
+        "description": "",
+        "doc": "./explainers/intro.html",
+        "path": "./notebooks/intro.ipynb"
+      },
+      {
+        "title": "The Basics of Metaflow",
+        "description": "",
+        "path": "./flows/local/flow_template.py",
+        "doc": "./explainers/flow-template.html",
+        "action": {
+          "type": "run",
+          "value": "./flows/local/flow_template.py",
+          "label": "Run Flow"
+        }
+      },
+      {
+        "title": "Exploratory Data Analysis",
+        "description": "",
+        "path": "./notebooks/week-1-eda.ipynb",
+        "doc": "./explainers/first-df-flow.html"
+      },
+      {
+        "title": "Your First Data Science Flow",
+        "description": "",
+        "path": "./flows/local/titanic_flow_1.py",
+        "doc": "./explainers/titanic-1.html",
+        "action": {
+          "type": "run",
+          "value": "./flows/local/titanic_flow_1.py",
+          "label": "Run Flow"
+        }
+      },
+      {
+        "title": "Orchestrating Random Forests",
+        "description": "",
+        "path": "./flows/local/rf_flow.py",
+        "doc": "./explainers/rf.html",
+        "action": {
+          "type": "run",
+          "value": "./flows/local/rf_flow.py",
+          "label": "Run Flow"
+        }
+      },
+      {
+        "title": "Boosted Trees Flow",
+        "description": "",
+        "path": "./flows/local/boosted_flow.py",
+        "doc": "./explainers/xgb.html",
+        "action": {
+          "type": "run",
+          "value": "./flows/local/boosted_flow.py",
+          "label": "Run Flow"
+        }
+      },
+      {
+        "title": "Your First Deep Learning Metaflow!",
+        "description": "",
+        "path": "./flows/local/NN_flow_student.py",
+        "doc": "./explainers/dl.html",
+        "action": {
+          "type": "run",
+          "value": "./flows/local/NN_flow_student.py",
+          "label": "Run Flow"
+        }
+      },
+      {
+        "title": "Week 1 Project",
+        "description": "",
+        "path": "./project/template.ipynb",
+        "doc": "./explainers/project.html"
+      }
+    ],
+    "links": []
+  }
+}
