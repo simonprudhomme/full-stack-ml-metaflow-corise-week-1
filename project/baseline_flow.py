@@ -8,6 +8,8 @@ def labeling_function(row):
         label = 1
     elif row['rating'] < 4:
         label = 0
+    else:
+        label = np.nan
     return label
 
 class BaselineNLPFlow(FlowSpec):
